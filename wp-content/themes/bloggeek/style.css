@@ -1,0 +1,20 @@
+/*
+Theme Name: BlogGeek
+Author: WebsiteinWP
+Author URI: https://websiteinwp.com/
+Description: BlogGeek serves as the child theme of AvatarNews, inheriting all the features of AvatarNews. It is tailored for the blog niche, offering block-based full site editing capabilities. With its sleek and modern design, BlogGeek enables users to create diverse types of blogs, such as tech blogs, lifestyle blogs, travel diaries, food blogs, and more. Explore additional features and demo at https://websiteinwp.com/avatarnews-wordpress-theme-for-blogging/
+Template: avatarnews
+Version: 1.0.0
+Requires at least: 5.9
+Tested up to: 6.6
+Requires PHP: 7.0
+License: GPLv3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: bloggeek
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, e-commerce, full-site-editing, block-patterns, full-width-template, rtl-language-support, threaded-comments, translation-ready, block-styles, wide-blocks
+*/
+.entry-content.wp-block-post-content a,
+.wp-block-comment-content a,
+p a {
+  text-decoration: underline;
+}
